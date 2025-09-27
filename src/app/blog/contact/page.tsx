@@ -3,7 +3,7 @@ import React from 'react';
 export default function Page() {
     return (
         <div>
-            <h1>Contact</h1>
+            <h1 className="text-2xl font-bold text-purple-800 mb-4">Contact</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, architecto natus,
                 cumque laborum, error consequuntur eaque expedita numquam eveniet quas sunt
@@ -13,7 +13,6 @@ export default function Page() {
                 <h2>Get in Touch</h2>
                 <ul style={{ listStyleType: "square" }}>
                     <li>
-
                         <span>Email: <a href="mailto:contact@example.com">contact@example.com</a></span>
                     </li>
                     <li>
